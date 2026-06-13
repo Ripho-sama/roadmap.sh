@@ -1,6 +1,7 @@
 # Server Performance Stats
 
 Write a script to analyse basic server performance stats.
+[Link to the exercice](https://roadmap.sh/projects/server-stats)
 
 # Objective
 Goal of this project is to write a script to analyse server performance stats.
