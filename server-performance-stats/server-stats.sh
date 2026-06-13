@@ -17,10 +17,10 @@ echo $(uptime)
 echo "\n"
 
 echo "----- \t CPU \t -----"
-echo "* Top 5 cpu consumming process \n"
+echo "* Top 5 cpu consumming processes \n"
 ps aux --sort=-%cpu | head -n5
 
-echo "\n* Top 5 memory consumming process \n"
+echo "\n* Top 5 memory consumming processes \n"
 
 ps aux --sort=-%mem | head -n5
 
@@ -36,3 +36,4 @@ echo "Available: $AVAIL"
 echo "Percent Used: $PCENT_USED"
 
 echo "\nCONCLUSION: Out of $TOTAL,  ${USED}(${PCENT_USED}%) is used and $AVAIL is available."
+echo "--------------------------------------------------------------------------------------"
