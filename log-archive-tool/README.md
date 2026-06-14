@@ -1,7 +1,6 @@
 # Log Archiver Script
 
-An automated Bash utility designed to streamline the backup process by parsing input directories and compressing them into a structured destination folder. [Link to the exercice](https://roadmap.sh/projects/log-archive-tool)
-
+An automated Bash utility designed to streamline the backup process by parsing input directories and compressing them into a structured destination folder.[Link to the exercice](https://roadmap.sh/projects/log-archive-tool)
 ## Overview
 This script automates the archiving of multiple source log directories into individual compressed `.tar.gz` files. It features robust argument parsing, error isolation, timestamped file naming, and contextual execution logs to ensure that your system administrator or cron logs remain fully informed of the success or failure of each operation.
 
