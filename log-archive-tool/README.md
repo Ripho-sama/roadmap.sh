@@ -25,23 +25,23 @@ This script automates the archiving of multiple source log directories into indi
 ### 1. Make the Script Executable
 Before execution, grant execution permissions to the script file:
 ```bash
-chmod +x archive_logs.sh
+chmod +x log-archive.sh
 ```
 
 ### 2. Standard Execution (Default Backup Folder)
 To process folders and store the output inside the fallback directory (`/backup`):
 ```bash
-./archive_logs.sh /var/log/nginx /var/log/apache2
+./log-archive.sh /var/log/nginx /var/log/apache2
 ```
 
 ### 3. Custom Destination Execution
 Pass the `-d` or `--directory` modifier flags followed by your desired custom file path before listing your target structures:
 ```bash
-./archive_logs.sh -d /home/user/my_backups /var/log/syslog /var/log/mail
+./log-archive.sh -d /home/user/my_backups /var/log/syslog /var/log/mail
 ```
 
 ### 4. Handling Script Output
 The script prints all events, skips, and errors cleanly alongside live ISO timestamps directly to the standard execution stream (`stdout`). You can isolate these straight into system log files for review:
 ```bash
-./archive_logs.sh -d /tmp /var/log/nginx >> /var/log/script_runs.log
+./log-archive.sh -d /tmp /var/log/nginx >> /var/log/script_runs.log
 ```
