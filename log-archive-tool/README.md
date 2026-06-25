@@ -1,4 +1,4 @@
-[Link to the exercice](https://roadmap.sh/projects/log-archive-tool)
+**Link to the exercice** https://roadmap.sh/projects/log-archive-tool
 # Log Archiver Script
 
 An automated Bash utility designed to streamline the backup process by parsing input directories and compressing them into a structured destination folder. 
