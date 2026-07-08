@@ -31,3 +31,9 @@ TOP_PATH=$(awk -F\" '{print $2}' $LOG_FILE | awk '{print $2}' | sort | uniq -c |
 echo "$TOP_PATH" | awk 'BEGIN {ORS="\n---\n"} {print $2,"-",$1,"requests"}'
 
 
+# Extract TOP 5 Response Status code
+echo
+echo "Top 5 response Status code:"
+echo
+TOP_PATH=$(awk -F\" '{print $3}' $LOG_FILE | awk '{print $1}' | sort | uniq -c | sort -nr | head -n5) 
+echo "$TOP_PATH" | awk '{print $2,"-",$1,"requests"}'
