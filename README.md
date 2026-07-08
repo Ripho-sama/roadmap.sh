@@ -63,7 +63,7 @@ To run the scripts contained within this repository, you need:
 ## 📈 Learning Roadmap Progress
 - [x] DevOps - Server Performance Stats
 - [x] DevOps - Log Archive Tool
-- [ ] DevOps - Next Challenge...
+- [x] DevOps - Nginx Log analyser
 
 ---
 *Note: This repository is continuously updated as I progress through new challenges on roadmap.sh.*
