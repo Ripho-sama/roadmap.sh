@@ -61,9 +61,9 @@ To run the scripts contained within this repository, you need:
 ---
 
 ## 📈 Learning Roadmap Progress
-- [x] DevOps - Server Performance Stats
-- [x] DevOps - Log Archive Tool
-- [x] DevOps - Nginx Log analyser
+- [x] DevOps - [Server Performance Stats](https://github.com/Ripho-sama/roadmap.sh/tree/main/server-performance-stats)
+- [x] DevOps - [Log Archive Tool](https://github.com/Ripho-sama/roadmap.sh/tree/main/log-archive-tool)
+- [x] DevOps - [Nginx Log analyser](https://github.com/Ripho-sama/roadmap.sh/tree/main/nginx-log-analyser)
 
 ---
-*Note: This repository is continuously updated as I progress through new challenges on roadmap.sh.*
+*Note: This repository is continuously updated as I progress through new devops challenges on [roadmap.sh](https://roadmap.sh/devops/projects)*
